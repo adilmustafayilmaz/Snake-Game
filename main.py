@@ -376,7 +376,7 @@ def run_game(screen, clock):
 def main():
     pygame.init()
     screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-    pygame.display.set_caption("Otonom Yılan Yarışması (A* ve Dijkstra, Engeller)")
+    pygame.display.set_caption("A*, Dijkstra and Obstacles")
     clock = pygame.time.Clock()
     
     while True:
